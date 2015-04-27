@@ -14,7 +14,7 @@ public class BackgroundRepeater : MonoBehaviour {
 		SpriteRenderer spriteRenderer = GetComponent<Renderer>() as SpriteRenderer;
 		spriteWidth = spriteRenderer.sprite.bounds.size.x;	
 	}
-	
+	//commit	
 	// Update is called once per frame
 	void Update () {
 		if( (transform.position.x + spriteWidth) < cameraTransform.position.x) {
